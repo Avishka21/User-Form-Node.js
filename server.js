@@ -14,7 +14,7 @@ app.use(express.json());
 
 // Get Mongo URI from environment variables
 
-const uri = 'mongodb+srv://avishkavinodcgl:(pw)@cluster0.8vkfq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+const uri = 'mongodb+srv://(un):(pw)@cluster0.8vkfq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 
 const connect = async () => {
     try {
